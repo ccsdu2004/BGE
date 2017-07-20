@@ -1,0 +1,693 @@
+# depslib dependency file v1.0
+1453267288 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\canvasimpl.cpp
+	<BGE/System/Err.h>
+	<BGE/Graphics/Opengl.h>
+	<BGE/Graphics/CanvasImpl.h>
+	<BGE/Graphics/glfont/GLTextRenderer.h>
+	<BGE/GUI/WindowManager.h>
+	<cassert>
+
+1452580889 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\err.h
+	<BGE/Config.h>
+	<ostream>
+
+1453359428 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\config.h
+	<stdint.h>
+
+1452050574 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\opengl.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1453167129 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\canvasimpl.h
+	<BGE/Graphics/Canvas.h>
+	<BGE/Graphics/glfont/GLTextRenderer.h>
+	<BGE/System/Err.h>
+	<ft2build.h>
+
+1453089862 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\canvas.h
+	<BGE/Config.h>
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Math.h>
+	<BGE/Graphics/Color.h>
+	<BGE/Graphics/Image.h>
+
+1452580930 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\noncopyable.h
+	<BGE/Config.h>
+
+1453082528 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\math.h
+	<BGE/Config.h>
+	<cmath>
+	<limits>
+	<utility>
+	<ostream>
+	<BGE/System/priv/Vector2.inl>
+	<BGE/System/priv/Vector3.inl>
+	<BGE/System/priv/Rect.inl>
+	<BGE/System/priv/Math.inl>
+
+1450329545 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\priv\vector2.inl
+
+1448702336 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\priv\vector3.inl
+
+1450329036 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\priv\rect.inl
+
+1453082454 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\priv\math.inl
+
+1452581107 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\color.h
+	<BGE/System/Serialization.h>
+	<cstdint>
+
+1453445937 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\serialization.h
+	<BGE/Config.h>
+	<BGE/System/TinyXml.h>
+	<BGE/System/Math.h>
+	<BGE/System/String.h>
+	<BGE/System/Enum.h>
+	<utility>
+	<string>
+
+1453361380 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\tinyxml.h
+	<BGE/Config.h>
+	<BGE/System/IO.h>
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+
+1453182052 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\io.h
+	<BGE/Config.h>
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Deleter.h>
+	<string>
+
+1452580883 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\deleter.h
+	<BGE/Config.h>
+
+1453432651 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\string.h
+	<BGE/Config.h>
+	<BGE/System/Err.h>
+	<locale>
+	<string>
+	<cmath>
+	<sstream>
+
+1452058186 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\enum.h
+	<BGE/System/String.h>
+	<iostream>
+
+1452584793 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\image.h
+	<BGE/Config.h>
+	<BGE/System/Deleter.h>
+	<BGE/System/Math.h>
+	<string>
+
+1453089525 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\glfont\gltextrenderer.h
+	<cstddef>
+	<BGE/Graphics/TextRenderer.h>
+
+1453089876 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\textrenderer.h
+	<BGE/Config.h>
+	<BGE/System/Enum.h>
+	<BGE/System/Object.h>
+	<BGE/System/Math.h>
+	<BGE/System/String.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453447677 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\object.h
+	<BGE/Config.h>
+	<BGE/System/Deleter.h>
+	<BGE/System/TinyXml.h>
+	<list>
+	<string>
+	<map>
+
+1453262072 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\renderdesc.h
+	<BGE/Config.h>
+	<BGE/System/Math.h>
+	<BGE/System/String.h>
+	<BGE/System/Enum.h>
+	<BGE/System/Err.h>
+	<BGE/System/Object.h>
+	<BGE/System/NonCopyable.h>
+	<BGE/System/TinyXml.h>
+	<BGE/Graphics/Color.h>
+	<BGE/Graphics/Image.h>
+	<BGE/Graphics/Canvas.h>
+
+1237038326 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1237038326 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\freetype\config\ftheader.h
+
+1453109340 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\windowmanager.h
+	<BGE/System/String.h>
+	<BGE/System/Math.h>
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Sigslot.h>
+	<BGE/Graphics/Color.h>
+	<BGE/Graphics/Canvas.h>
+	<BGE/GUI/Dock.h>
+
+1453267690 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\sigslot.h
+	<BGE/Config.h>
+	<set>
+	<list>
+
+1452581735 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\dock.h
+	<BGE/Config.h>
+	<BGE/System/Math.h>
+	<BGE/System/Object.h>
+
+1451988326 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\color.cpp
+	<BGE/System/Math.h>
+	<BGE/Graphics/Color.h>
+	<algorithm>
+
+1453101087 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\device.cpp
+	<BGE/Graphics/Device.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/System/Err.h>
+	<glfw/glfw3.h>
+	<iostream>
+
+1452583294 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\graphics\device.h
+	<BGE/System/String.h>
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Deleter.h>
+	<cstdint>
+
+1451012378 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES3/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES3/gl2ext.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1453090004 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\glfont\gltextrenderer.cpp
+	<map>
+	<cstddef>
+	<BGE/Graphics/OpenGL.h>
+	<BGE/Graphics/Canvas.h>
+	<BGE/Graphics/glfont/GLTextRenderer.h>
+	<BGE/Graphics/glfont/TypeFace.h>
+
+1452060551 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\glfont\typeface.h
+	<BGE/System/Math.h>
+	<BGE/System/String.h>
+	<string>
+
+1453095641 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\glfont\typeface.cpp
+	<cstddef>
+	<vector>
+	<map>
+	<cstring>
+	<ft2build.h>
+	<BGE/System/Math.h>
+	<BGE/System/Err.h>
+	<BGE/System/IO.h>
+	<BGE/Graphics/OpenGL.h>
+	<BGE/Graphics/CanvasImpl.h>
+	<BGE/GUI/WindowManager.h>
+	<algorithm>
+	"TypeFace.h"
+
+1450945250 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\image.cpp
+	<BGE/Graphics/Image.h>
+	<BGE/GUI/WindowManager.h>
+
+1453168104 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\pngimage.cpp
+	<BGE/System/IO.h>
+	<BGE/System/Err.h>
+	<BGE/Graphics/PNGImage.h>
+	<png.h>
+	<cstdio>
+	<map>
+	<string.h>
+
+1452584744 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\pngimage.h
+	<BGE/System/Math.h>
+	<BGE/Graphics/Image.h>
+
+1450765669 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1447333211 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\pnglibconf.h
+
+1451008506 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1453172562 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\graphics\solidsurfacedesc.cpp
+	<BGE/System/Math.h>
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/OpenGL.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/Graphics/TextRenderer.h>
+	<BGE/GUI/WindowManager.h>
+	<vector>
+
+1453179260 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\absolutelayout.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/Layouter.h>
+	<BGE/GUI/Window.h>
+
+1453182744 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\layouter.h
+	<BGE/System/Object.h>
+	<BGE/System/Math.h>
+	<BGE/System/Enum.h>
+	<BGE/System/Sigslot.h>
+	<string>
+	<list>
+	<vector>
+
+1453278974 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\window.h
+	<BGE/System/Object.h>
+	<BGE/System/String.h>
+	<BGE/System/TinyXml.h>
+	<BGE/System/Math.h>
+	<BGE/System/Sigslot.h>
+	<BGE/Graphics/Color.h>
+
+1453270183 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\basicbutton.cpp
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Serialization.h>
+	<BGE/System/Err.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/Message.h>
+
+1453269300 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\basicbutton.h
+	<BGE/Config.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Window.h>
+
+1452582061 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\propertyscheme.h
+	<BGE/Graphics/Color.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Panel.h>
+	<BGE/GUI/StaticText.h>
+	<BGE/GUI/Slider.h>
+	<BGE/GUI/ProgressBar.h>
+	<BGE/GUI/ListControl.h>
+	<BGE/GUI/FrameWindow.h>
+	<BGE/GUI/ComboBox.h>
+	<BGE/GUI/CheckBox.h>
+	<BGE/GUI/ScrollBar.h>
+	<BGE/GUI/ListBox.h>
+	<BGE/GUI/EditField.h>
+
+1453364212 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\panel.h
+	<BGE/GUI/Window.h>
+	<BGE/GUI/Layout.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453268308 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\statictext.h
+	<BGE/System/Object.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Window.h>
+
+1453268388 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\slider.h
+	<BGE/System/Enum.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Slideable.h>
+
+1452582077 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\slideable.h
+	<BGE/GUI/Window.h>
+
+1453268395 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\progressbar.h
+	<BGE/System/Math.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Window.h>
+
+1453343424 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\listcontrol.h
+	<BGE/GUI/ListWindow.h>
+	<vector>
+	<list>
+
+1453110707 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\listwindow.h
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Window.h>
+
+1453280140 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\framewindow.h
+	<BGE/System/Math.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Panel.h>
+
+1453433290 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\combobox.h
+	<BGE/GUI/Window.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453268180 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\checkbox.h
+	<BGE/Config.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453281709 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\scrollbar.h
+	<BGE/System/Timer.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Slideable.h>
+
+1453080619 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\timer.h
+	<BGE/Config.h>
+	<BGE/System/SigSlot.h>
+
+1453433166 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\listbox.h
+	<BGE/GUI/ListWindow.h>
+	<BGE/GUI/Message.h>
+
+1452582029 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\message.h
+	<BGE/System/Math.h>
+	<string>
+	<BGE/System/String.h>
+	<BGE/System/NonCopyable.h>
+
+1453367422 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\editfield.h
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/Message.h>
+
+1453167879 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\basicbuttongroup.cpp
+	<BGE/GUI/BasicButton.h>
+
+1453185265 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\boxlayout.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/Layouter.h>
+
+1453189181 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\button.cpp
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/WindowManager.h>
+
+1453264934 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\checkbox.cpp
+	<BGE/GUI/CheckBox.h>
+	<BGE/GUI/Message.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453169550 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\checkboxgroup.cpp
+	<BGE/GUI/CheckBox.h>
+
+1453266493 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\combobox.cpp
+	<BGE/System/NonCopyable.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/ComboBox.h>
+	<BGE/GUI/Message.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/ListBox.h>
+	<BGE/GUI/PropertyScheme.h>
+
+1452575086 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\dock.cpp
+	<BGE/GUI/Dock.h>
+
+1453269541 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\editfield.cpp
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/EditField.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/Message.h>
+
+1453172562 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\flowlayouter.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/Layouter.h>
+	<BGE/GUI/Window.h>
+
+1453265093 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\framewindow.cpp
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Err.h>
+	<BGE/GUI/FrameWindow.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/Graphics/RenderDesc.h>
+
+1453172562 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\gridlayouter.cpp
+	<BGE/System/Err.h>
+	<BGE/System/Serialization.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/Layouter.h>
+	<algorithm>
+	<numeric>
+
+1453111851 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\layouter.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/Layouter.h>
+	<BGE/GUI/Window.h>
+	<algorithm>
+
+1453266106 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\listbox.cpp
+	<BGE/GUI/ListBox.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/ScrollBar.h>
+	<BGE/Graphics/RenderDesc.h>
+	<algorithm>
+
+1453266555 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\listcontrol.cpp
+	<BGE/System/Err.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/ListControl.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/ScrollBar.h>
+	<algorithm>
+	<numeric>
+
+1453266805 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\listwindow.cpp
+	<BGE/System/NonCopyable.h>
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Message.h>
+	<BGE/GUI/ListWindow.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/ScrollBar.h>
+
+1452149615 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\message.cpp
+	<BGE/GUI/Message.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/WindowManager.h>
+	<glfw/glfw3.h>
+	<iostream>
+
+1453260305 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\multitextbutton.cpp
+	<BGE/GUI/MultiTextButton.h>
+	<BGE/GUI/Message.h>
+	<BGE/GUI/WindowManager.h>
+
+1453110794 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\multitextbutton.h
+	<BGE/GUI/BasicButton.h>
+
+1453266911 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\panel.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/Panel.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+
+1453264893 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\progressbar.cpp
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/Color.h>
+	<BGE/GUI/ProgressBar.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+
+1453266835 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\propertyscheme.cpp
+	<BGE/System/Err.h>
+	<BGE/GUI/PropertyScheme.h>
+	<fstream>
+	<iterator>
+
+1453264808 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\scrollbar.cpp
+	<BGE/System/NonCopyable.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/ScrollBar.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/WindowManager.h>
+
+1453260072 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\slideable.cpp
+	<BGE/System/Serialization.h>
+	<BGE/System/Err.h>
+	<BGE/GUI/Slideable.h>
+	<BGE/GUI/Message.h>
+
+1453270126 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\slider.cpp
+	<BGE/System/Timer.h>
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/Slider.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/WindowManager.h>
+
+1453268468 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\spinbox.cpp
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/GUI/SpinBox.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/BasicButton.h>
+	<BGE/GUI/EditField.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/System/Serialization.h>
+
+1453268221 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\spinbox.h
+	<BGE/System/Timer.h>
+	<BGE/GUI/Slideable.h>
+
+1453172562 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\stacklayouter.cpp
+	<BGE/GUI/Layouter.h>
+	<BGE/GUI/Window.h>
+	<algorithm>
+
+1453265223 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\statictext.cpp
+	<BGE/System/Serialization.h>
+	<BGE/Graphics/Color.h>
+	<BGE/Graphics/RenderDesc.h>
+	<BGE/Graphics/TextRenderer.h>
+	<BGE/GUI/StaticText.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/PropertyScheme.h>
+
+1453189608 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\window.cpp
+	<BGE/System/Err.h>
+	<BGE/System/Serialization.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/PropertyScheme.h>
+	<BGE/GUI/WindowManager.h>
+
+1453176172 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\gui\windowmanager.cpp
+	<BGE/System/Timer.h>
+	<BGE/System/TimeManager.h>
+	<BGE/System/Err.h>
+	<BGE/Graphics/OpenGL.h>
+	<BGE/Graphics/CanvasImpl.h>
+	<BGE/GUI/WindowManager.h>
+	<BGE/GUI/Window.h>
+	<BGE/GUI/PropertyScheme.h>
+	<algorithm>
+	<functional>
+
+1452580982 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\timemanager.h
+	<BGE/Config.h>
+
+1448708158 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\deleter.cpp
+	<BGE/System/Deleter.h>
+
+1453261141 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\err.cpp
+	<BGE/System/Err.h>
+	<streambuf>
+	<cstdio>
+	<iostream>
+
+1453092978 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\io.cpp
+	<BGE/System/IO.h>
+	<BGE/System/Err.h>
+	<BGE/System/Sigslot.h>
+	<physfs.h>
+	<list>
+	<cstdio>
+
+1350963664 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\thirdparty\include\physfs.h
+
+1450238477 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\line.cpp
+	<BGE/System/Math.h>
+	<cmath>
+
+1450240487 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\math.cpp
+	<BGE/System/Math.h>
+
+1453270990 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\object.cpp
+	<BGE/System/Object.h>
+	<BGE/System/Err.h>
+	<BGE/System/Serialization.h>
+	<list>
+	<algorithm>
+	<iostream>
+
+1451284974 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\rtti.cpp
+	<BGE/System/Object.h>
+
+1453184807 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\serialization.cpp
+	<BGE/System/Serialization.h>
+	<BGE/System/String.h>
+	<BGE/System/Err.h>
+	<BGE/System/Math.h>
+	<list>
+
+1453179877 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\string.cpp
+	<BGE/System/String.h>
+	<BGE/System/Utf.h>
+	<iterator>
+	<cstring>
+
+1453182490 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\utf.h
+	<BGE/Config.h>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<BGE/System/priv/Utf.inl>
+
+1448702336 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\priv\utf.inl
+
+1450746676 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\timemanager.cpp
+	<BGE/System/TimeManager.h>
+	<windows.h>
+	<mmsystem.h>
+	<ctime>
+
+1453081479 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\timer.cpp
+	<BGE/System/Timer.h>
+	<BGE/System/TimeManager.h>
+
+1453185497 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	<BGE/System/tinyxml.h>
+	<BGE/System/IO.h>
+
+1453180855 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\tinyxml\tinyxmlerror.cpp
+	<BGE/System/tinyxml.h>
+
+1453180855 source:c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\src\bge\system\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	<BGE/System/tinyxml.h>
+	<windows.h>
+
+1453360250 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\system\allocator.h
+	<memory>
+
+1453439999 c:\users\wenhua.du.teleperformance\documents\visual studio 2010\projects\bge\bge\include\bge\gui\layout.h
+	<BGE/System/Object.h>
+	<BGE/System/Math.h>
+	<BGE/System/Enum.h>
+	<BGE/System/Sigslot.h>
+	<string>
+	<list>
+	<vector>
+

@@ -1,0 +1,10 @@
+#ifndef BGE_GRAPHICS_ALL
+#define BGE_GRAPHICS_ALL
+
+#include <BGE/Graphics/Canvas.h>
+#include <BGE/Graphics/Color.h>
+#include <BGE/Graphics/Device.h>
+#include <BGE/Graphics/Image.h>
+#include <BGE/Graphics/RenderDesc.h>
+#include <BGE/Graphics/TextRenderer.h>
+#endif

@@ -1,0 +1,25 @@
+#ifndef BGE_GUI_ALL
+#define BGE_GUI_ALL
+
+#include <BGE/GUI/Message.h>
+#include <BGE/GUI/Dock.h>
+#include <BGE/GUI/PropertyScheme.h>
+#include <BGE/GUI/WindowManager.h>
+#include <BGE/GUI/Layout.h>
+#include <BGE/GUI/Window.h>
+#include <BGE/GUI/Panel.h>
+#include <BGE/GUI/EditField.h>
+#include <BGE/GUI/BasicButton.h>
+#include <BGE/GUI/CheckBox.h>
+#include <BGE/GUI/ComboBox.h>
+#include <BGE/GUI/ListWindow.h>
+#include <BGE/GUI/ListControl.h>
+#include <BGE/GUI/ListBox.h>
+#include <BGE/GUI/Slider.h>
+#include <BGE/GUI/MultiTextButton.h>
+#include <BGE/GUI/ProgressBar.h>
+#include <BGE/GUI/ScrollBar.h>
+#include <BGE/GUI/SpinBox.h>
+#include <BGE/GUI/StaticText.h>
+
+#endif

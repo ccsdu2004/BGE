@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BGE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bge" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-DTIXML_USE_STL" />
+					<Add option="-DBGE_EXPORTS" />
+					<Add directory="BGE/include" />
+					<Add directory="BGE/src" />
+					<Add directory="thirdparty/include" />
+				</Compiler>
+				<Linker>
+					<Add library="thirdparty\lib\glfw3dll.a" />
+					<Add library="thirdparty\lib\libfreetype240.a" />
+					<Add library="thirdparty\lib\libglu32.a" />
+					<Add library="thirdparty\lib\libopengl32.a" />
+					<Add library="thirdparty\lib\libpng.a" />
+					<Add library="thirdparty\lib\libphysfs.a" />
+					<Add library="thirdparty\lib\libwinmm.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../codeblock/bge" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-std=c++0x" />
+					<Add option="-DWIN32" />
+					<Add option="-DBGE_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="../thirdparty/include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\thirdparty\lib\glfw3dll.a" />
+					<Add library="..\thirdparty\lib\libfreetype240.a" />
+					<Add library="..\thirdparty\lib\libpng.a" />
+					<Add library="..\thirdparty\lib\libphysfs.a" />
+					<Add library="..\thirdparty\lib\libglu32.a" />
+					<Add library="..\thirdparty\lib\libopengl32.a" />
+					<Add library="..\thirdparty\lib\libwinmm.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/BGE/Config.h" />
+		<Unit filename="include/BGE/GUI/All" />
+		<Unit filename="include/BGE/GUI/BasicButton.h" />
+		<Unit filename="include/BGE/GUI/CheckBox.h" />
+		<Unit filename="include/BGE/GUI/ComboBox.h" />
+		<Unit filename="include/BGE/GUI/Dock.h" />
+		<Unit filename="include/BGE/GUI/EditField.h" />
+		<Unit filename="include/BGE/GUI/FrameWindow.h" />
+		<Unit filename="include/BGE/GUI/Layouter.h" />
+		<Unit filename="include/BGE/GUI/ListBox.h" />
+		<Unit filename="include/BGE/GUI/ListControl.h" />
+		<Unit filename="include/BGE/GUI/ListWindow.h" />
+		<Unit filename="include/BGE/GUI/Message.h" />
+		<Unit filename="include/BGE/GUI/MultiTextButton.h" />
+		<Unit filename="include/BGE/GUI/Panel.h" />
+		<Unit filename="include/BGE/GUI/ProgressBar.h" />
+		<Unit filename="include/BGE/GUI/PropertyScheme.h" />
+		<Unit filename="include/BGE/GUI/ScrollBar.h" />
+		<Unit filename="include/BGE/GUI/Slideable.h" />
+		<Unit filename="include/BGE/GUI/Slider.h" />
+		<Unit filename="include/BGE/GUI/SpinBox.h" />
+		<Unit filename="include/BGE/GUI/StaticText.h" />
+		<Unit filename="include/BGE/GUI/Window.h" />
+		<Unit filename="include/BGE/GUI/WindowManager.h" />
+		<Unit filename="include/BGE/Graphics/Canvas.h" />
+		<Unit filename="include/BGE/Graphics/Color.h" />
+		<Unit filename="include/BGE/Graphics/Device.h" />
+		<Unit filename="include/BGE/Graphics/Image.h" />
+		<Unit filename="include/BGE/Graphics/RenderDesc.h" />
+		<Unit filename="include/BGE/Graphics/TextRenderer.h" />
+		<Unit filename="include/BGE/System/Deleter.h" />
+		<Unit filename="include/BGE/System/Enum.h" />
+		<Unit filename="include/BGE/System/Err.h" />
+		<Unit filename="include/BGE/System/IO.h" />
+		<Unit filename="include/BGE/System/Math.h" />
+		<Unit filename="include/BGE/System/NonCopyable.h" />
+		<Unit filename="include/BGE/System/Object.h" />
+		<Unit filename="include/BGE/System/Serialization.h" />
+		<Unit filename="include/BGE/System/Sigslot.h" />
+		<Unit filename="include/BGE/System/String.h" />
+		<Unit filename="include/BGE/System/TimeManager.h" />
+		<Unit filename="include/BGE/System/Timer.h" />
+		<Unit filename="include/BGE/System/TinyXml.h" />
+		<Unit filename="include/BGE/System/Utf.h" />
+		<Unit filename="src/BGE/GUI/AbsoluteLayout.cpp" />
+		<Unit filename="src/BGE/GUI/BasicButton.cpp" />
+		<Unit filename="src/BGE/GUI/BasicButtonGroup.cpp" />
+		<Unit filename="src/BGE/GUI/BoxLayout.cpp" />
+		<Unit filename="src/BGE/GUI/Button.cpp" />
+		<Unit filename="src/BGE/GUI/CheckBox.cpp" />
+		<Unit filename="src/BGE/GUI/CheckBoxGroup.cpp" />
+		<Unit filename="src/BGE/GUI/ComboBox.cpp" />
+		<Unit filename="src/BGE/GUI/Dock.cpp" />
+		<Unit filename="src/BGE/GUI/EditField.cpp" />
+		<Unit filename="src/BGE/GUI/FlowLayouter.cpp" />
+		<Unit filename="src/BGE/GUI/FrameWindow.cpp" />
+		<Unit filename="src/BGE/GUI/GridLayouter.cpp" />
+		<Unit filename="src/BGE/GUI/Layouter.cpp" />
+		<Unit filename="src/BGE/GUI/ListBox.cpp" />
+		<Unit filename="src/BGE/GUI/ListControl.cpp" />
+		<Unit filename="src/BGE/GUI/ListWindow.cpp" />
+		<Unit filename="src/BGE/GUI/Message.cpp" />
+		<Unit filename="src/BGE/GUI/MultiTextButton.cpp" />
+		<Unit filename="src/BGE/GUI/Panel.cpp" />
+		<Unit filename="src/BGE/GUI/ProgressBar.cpp" />
+		<Unit filename="src/BGE/GUI/PropertyScheme.cpp" />
+		<Unit filename="src/BGE/GUI/ScrollBar.cpp" />
+		<Unit filename="src/BGE/GUI/Slideable.cpp" />
+		<Unit filename="src/BGE/GUI/Slider.cpp" />
+		<Unit filename="src/BGE/GUI/SpinBox.cpp" />
+		<Unit filename="src/BGE/GUI/StackLayouter.cpp" />
+		<Unit filename="src/BGE/GUI/StaticText.cpp" />
+		<Unit filename="src/BGE/GUI/Window.cpp" />
+		<Unit filename="src/BGE/GUI/WindowManager.cpp" />
+		<Unit filename="src/BGE/Graphics/CanvasImpl.cpp" />
+		<Unit filename="src/BGE/Graphics/CanvasImpl.h" />
+		<Unit filename="src/BGE/Graphics/Color.cpp" />
+		<Unit filename="src/BGE/Graphics/Device.cpp" />
+		<Unit filename="src/BGE/Graphics/Image.cpp" />
+		<Unit filename="src/BGE/Graphics/Opengl.h" />
+		<Unit filename="src/BGE/Graphics/PNGImage.cpp" />
+		<Unit filename="src/BGE/Graphics/PNGImage.h" />
+		<Unit filename="src/BGE/Graphics/SolidSurfaceDesc.cpp" />
+		<Unit filename="src/BGE/Graphics/glfont/GLTextRenderer.cpp" />
+		<Unit filename="src/BGE/Graphics/glfont/GLTextRenderer.h" />
+		<Unit filename="src/BGE/Graphics/glfont/TypeFace.cpp" />
+		<Unit filename="src/BGE/Graphics/glfont/TypeFace.h" />
+		<Unit filename="src/BGE/System/Deleter.cpp" />
+		<Unit filename="src/BGE/System/Err.cpp" />
+		<Unit filename="src/BGE/System/IO.cpp" />
+		<Unit filename="src/BGE/System/Line.cpp" />
+		<Unit filename="src/BGE/System/Math.cpp" />
+		<Unit filename="src/BGE/System/Object.cpp" />
+		<Unit filename="src/BGE/System/Rtti.cpp" />
+		<Unit filename="src/BGE/System/Serialization.cpp" />
+		<Unit filename="src/BGE/System/String.cpp" />
+		<Unit filename="src/BGE/System/TimeManager.cpp" />
+		<Unit filename="src/BGE/System/Timer.cpp" />
+		<Unit filename="src/BGE/System/tinyxml/tinyxml.cpp" />
+		<Unit filename="src/BGE/System/tinyxml/tinyxmlerror.cpp" />
+		<Unit filename="src/BGE/System/tinyxml/tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

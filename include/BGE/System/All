@@ -1,0 +1,16 @@
+#ifndef BGE_SYSTEM_ALL
+#define BGE_SYSTEM_ALL
+
+#include <BGE/System/String.h>
+#include <BGE/System/Math.h>
+#include <BGE/System/Err.h>
+#include <BGE/System/Object.h>
+#include <BGE/System/TinyXml.h>
+#include <BGE/System/NonCopyable.h>
+#include <BGE/System/Serialization.h>
+#include <BGE/System/Enum.h>
+#include <BGE/System/Deleter.h>
+#include <BGE/System/Sigslot.h>
+#include <BGE/System/IO.h>
+
+#endif

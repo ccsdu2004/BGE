@@ -1,0 +1,9 @@
+#ifndef BGE_ALL
+#define BGE_ALL
+
+#include <BGE/Config.h>
+#include <BGE/System/All>
+#include <BGE/Graphics/All>
+#include <BGE/GUI/All>
+
+#endif

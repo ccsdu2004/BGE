@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11A8C260-4731-4121-B76F-F9B2DDA3C8BD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BGE</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;BGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\BGE\include;C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\BGE\src;C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>winmm.lib;glu32.lib;opengl32.lib;..\\thirdparty\\lib\\physfs.lib;..\\thirdparty\\lib\\freetype240.lib;..\\thirdparty\\lib\\glfw3dll.lib;..\\thirdparty\\lib\\libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>
+      </MapFileName>
+      <MapExports>false</MapExports>
+      <AssemblyDebug>false</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BGE\GUI\BasicButton.h" />
+    <ClInclude Include="include\BGE\GUI\CheckBox.h" />
+    <ClInclude Include="include\BGE\GUI\ComboBox.h" />
+    <ClInclude Include="include\BGE\GUI\Dock.h" />
+    <ClInclude Include="include\BGE\GUI\EditField.h" />
+    <ClInclude Include="include\BGE\GUI\FrameWindow.h" />
+    <ClInclude Include="include\BGE\GUI\Layout.h" />
+    <ClInclude Include="include\BGE\GUI\ListBox.h" />
+    <ClInclude Include="include\BGE\GUI\ListControl.h" />
+    <ClInclude Include="include\BGE\GUI\ListWindow.h" />
+    <ClInclude Include="include\BGE\GUI\Message.h" />
+    <ClInclude Include="include\BGE\GUI\MultiTextButton.h" />
+    <ClInclude Include="include\BGE\GUI\Panel.h" />
+    <ClInclude Include="include\BGE\GUI\ProgressBar.h" />
+    <ClInclude Include="include\BGE\GUI\PropertyScheme.h" />
+    <ClInclude Include="include\BGE\GUI\ScrollBar.h" />
+    <ClInclude Include="include\BGE\GUI\Slideable.h" />
+    <ClInclude Include="include\BGE\GUI\Slider.h" />
+    <ClInclude Include="include\BGE\GUI\SpinBox.h" />
+    <ClInclude Include="include\BGE\GUI\StaticText.h" />
+    <ClInclude Include="include\BGE\GUI\Window.h" />
+    <ClInclude Include="include\BGE\GUI\WindowManager.h" />
+    <ClInclude Include="include\BGE\System\Deleter.h" />
+    <ClInclude Include="include\BGE\System\Enum.h" />
+    <ClInclude Include="include\BGE\System\Err.h" />
+    <ClInclude Include="include\BGE\System\IO.h" />
+    <ClInclude Include="include\BGE\System\list.h" />
+    <ClInclude Include="include\BGE\System\Math.h" />
+    <ClInclude Include="include\BGE\System\NonCopyable.h" />
+    <ClInclude Include="include\BGE\System\Object.h" />
+    <ClInclude Include="include\BGE\System\Serialization.h" />
+    <ClInclude Include="include\BGE\System\Sigslot.h" />
+    <ClInclude Include="include\BGE\System\String.h" />
+    <ClInclude Include="include\BGE\System\TimeManager.h" />
+    <ClInclude Include="include\BGE\System\Timer.h" />
+    <ClInclude Include="include\BGE\System\TinyXml.h" />
+    <ClInclude Include="include\BGE\System\Utf.h" />
+    <ClInclude Include="src\BGE\Graphics\CanvasImpl.h" />
+    <ClInclude Include="src\BGE\Graphics\glfont\GLTextRenderer.h" />
+    <ClInclude Include="src\BGE\Graphics\glfont\TypeFace.h" />
+    <ClInclude Include="src\BGE\Graphics\Opengl.h" />
+    <ClInclude Include="src\BGE\Graphics\PNGImage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test\grid.cpp" />
+    <ClCompile Include="src\BGE\Graphics\CanvasImpl.cpp" />
+    <ClCompile Include="src\BGE\Graphics\Color.cpp" />
+    <ClCompile Include="src\BGE\Graphics\Device.cpp" />
+    <ClCompile Include="src\BGE\Graphics\glfont\GLTextRenderer.cpp" />
+    <ClCompile Include="src\BGE\Graphics\glfont\TypeFace.cpp" />
+    <ClCompile Include="src\BGE\Graphics\Image.cpp" />
+    <ClCompile Include="src\BGE\Graphics\PNGImage.cpp" />
+    <ClCompile Include="src\BGE\Graphics\SolidSurfaceDesc.cpp" />
+    <ClCompile Include="src\BGE\GUI\AbsoluteLayout.cpp" />
+    <ClCompile Include="src\BGE\GUI\BasicButton.cpp" />
+    <ClCompile Include="src\BGE\GUI\BasicButtonGroup.cpp" />
+    <ClCompile Include="src\BGE\GUI\BoxLayout.cpp" />
+    <ClCompile Include="src\BGE\GUI\Button.cpp" />
+    <ClCompile Include="src\BGE\GUI\CheckBox.cpp" />
+    <ClCompile Include="src\BGE\GUI\CheckBoxGroup.cpp" />
+    <ClCompile Include="src\BGE\GUI\ComboBox.cpp" />
+    <ClCompile Include="src\BGE\GUI\Dock.cpp" />
+    <ClCompile Include="src\BGE\GUI\EditField.cpp" />
+    <ClCompile Include="src\BGE\GUI\FlowLayout.cpp" />
+    <ClCompile Include="src\BGE\GUI\FrameWindow.cpp" />
+    <ClCompile Include="src\BGE\GUI\GridLayout.cpp" />
+    <ClCompile Include="src\BGE\GUI\Layout.cpp" />
+    <ClCompile Include="src\BGE\GUI\ListBox.cpp" />
+    <ClCompile Include="src\BGE\GUI\ListControl.cpp" />
+    <ClCompile Include="src\BGE\GUI\ListWindow.cpp" />
+    <ClCompile Include="src\BGE\GUI\Message.cpp" />
+    <ClCompile Include="src\BGE\GUI\MultiTextButton.cpp" />
+    <ClCompile Include="src\BGE\GUI\Panel.cpp" />
+    <ClCompile Include="src\BGE\GUI\ProgressBar.cpp" />
+    <ClCompile Include="src\BGE\GUI\PropertyScheme.cpp" />
+    <ClCompile Include="src\BGE\GUI\ScrollBar.cpp" />
+    <ClCompile Include="src\BGE\GUI\Slideable.cpp" />
+    <ClCompile Include="src\BGE\GUI\Slider.cpp" />
+    <ClCompile Include="src\BGE\GUI\SpinBox.cpp" />
+    <ClCompile Include="src\BGE\GUI\StackLayout.cpp" />
+    <ClCompile Include="src\BGE\GUI\StaticText.cpp" />
+    <ClCompile Include="src\BGE\GUI\Window.cpp" />
+    <ClCompile Include="src\BGE\GUI\WindowManager.cpp" />
+    <ClCompile Include="src\BGE\System\Deleter.cpp" />
+    <ClCompile Include="src\BGE\System\Err.cpp" />
+    <ClCompile Include="src\BGE\System\IO.cpp" />
+    <ClCompile Include="src\BGE\System\Line.cpp" />
+    <ClCompile Include="src\BGE\System\Math.cpp" />
+    <ClCompile Include="src\BGE\System\Object.cpp" />
+    <ClCompile Include="src\BGE\System\Rtti.cpp" />
+    <ClCompile Include="src\BGE\System\Serialization.cpp" />
+    <ClCompile Include="src\BGE\System\String.cpp" />
+    <ClCompile Include="src\BGE\System\TimeManager.cpp" />
+    <ClCompile Include="src\BGE\System\Timer.cpp" />
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\BGE\GUI\All" />
+    <None Include="include\BGE\System\All" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

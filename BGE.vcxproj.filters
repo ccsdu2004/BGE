@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\System">
+      <UniqueIdentifier>{17ec4f73-ddcf-481e-a680-364019bbebca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\System\TinyXML">
+      <UniqueIdentifier>{6579af9e-a210-458b-a6ba-9a4afea41034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics">
+      <UniqueIdentifier>{4e323100-ace9-49a0-9235-695601877ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics\glFont">
+      <UniqueIdentifier>{1227848d-2222-4390-96fe-2432096de565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GUI">
+      <UniqueIdentifier>{f9638e60-b4d8-462f-bd4d-eeadbf19aff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\System">
+      <UniqueIdentifier>{46feb6ec-92ca-4e48-bdd6-ee8f8cfe9218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Graphics">
+      <UniqueIdentifier>{e57176d9-731e-4909-be42-dbd5a3edcfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GUI">
+      <UniqueIdentifier>{61f542f6-fc1b-4db7-9bb4-596aa85807e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BGE\Graphics\CanvasImpl.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGE\Graphics\Opengl.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGE\Graphics\PNGImage.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGE\Graphics\glfont\GLTextRenderer.h">
+      <Filter>源文件\Graphics\glFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGE\Graphics\glfont\TypeFace.h">
+      <Filter>源文件\Graphics\glFont</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Deleter.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Enum.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Err.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\IO.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Math.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\NonCopyable.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Object.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Serialization.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Sigslot.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\String.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\TimeManager.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Timer.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\TinyXml.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\Utf.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\BasicButton.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\CheckBox.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ComboBox.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Dock.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\EditField.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\FrameWindow.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ListBox.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ListControl.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ListWindow.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Message.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\MultiTextButton.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Panel.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ProgressBar.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\PropertyScheme.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\ScrollBar.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Slideable.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Slider.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\SpinBox.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\StaticText.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Window.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\WindowManager.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\System\list.h">
+      <Filter>头文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\GUI\Layout.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BGE\System\Deleter.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Err.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\IO.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Line.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Math.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Object.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Rtti.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Serialization.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\String.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\TimeManager.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\Timer.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxml.cpp">
+      <Filter>源文件\System\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxmlerror.cpp">
+      <Filter>源文件\System\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\System\tinyxml\tinyxmlparser.cpp">
+      <Filter>源文件\System\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\CanvasImpl.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\Color.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\Device.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\Image.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\PNGImage.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\SolidSurfaceDesc.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\glfont\GLTextRenderer.cpp">
+      <Filter>源文件\Graphics\glFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\Graphics\glfont\TypeFace.cpp">
+      <Filter>源文件\Graphics\glFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\BasicButton.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\BasicButtonGroup.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Button.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\CheckBox.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\CheckBoxGroup.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ComboBox.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Dock.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\EditField.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\FrameWindow.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ListBox.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ListControl.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ListWindow.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Message.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\MultiTextButton.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Panel.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ProgressBar.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\PropertyScheme.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\ScrollBar.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Slideable.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Slider.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\SpinBox.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\StaticText.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Window.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\WindowManager.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\BoxLayout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\AbsoluteLayout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\FlowLayout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\GridLayout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\Layout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGE\GUI\StackLayout.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\grid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\BGE\System\All">
+      <Filter>头文件\System</Filter>
+    </None>
+    <None Include="include\BGE\GUI\All">
+      <Filter>头文件\GUI</Filter>
+    </None>
+  </ItemGroup>
+</Project>
