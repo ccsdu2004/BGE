@@ -165,6 +165,24 @@
     <ClInclude Include="include\BGE\GUI\Layout.h">
       <Filter>头文件\GUI</Filter>
     </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\Canvas.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\Color.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\Device.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\Image.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\RenderDesc.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGE\Graphics\TextRenderer.h">
+      <Filter>头文件\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BGE\System\Deleter.cpp">
@@ -323,9 +341,6 @@
     <ClCompile Include="src\BGE\GUI\StackLayout.cpp">
       <Filter>源文件\GUI</Filter>
     </ClCompile>
-    <ClCompile Include="..\test\grid.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="include\BGE\System\All">
@@ -333,6 +348,9 @@
     </None>
     <None Include="include\BGE\GUI\All">
       <Filter>头文件\GUI</Filter>
+    </None>
+    <None Include="include\BGE\Graphics\All">
+      <Filter>头文件\Graphics</Filter>
     </None>
   </ItemGroup>
 </Project>

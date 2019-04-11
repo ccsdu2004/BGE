@@ -481,8 +481,8 @@ bool EditField::loadProperty(TiXmlNode* node)
 {
     DESERIALIZE_OBJECT(caretPosition,node,uint32_t)
     //DESERIALIZE_OBJECT(selection,node,Selection)
-    DESERIALIZE_OBJECT(selectionStart,node,int)
-    DESERIALIZE_OBJECT(xOffset,node,float)
+    DESERIALIZE_OBJECT(selectionStart,node,uint32_t)
+    DESERIALIZE_OBJECT(xOffset,node,uint32_t)
     TiXmlNode* window = node->FirstChildElement("Window");
     Window::loadProperty(window);
     return true;

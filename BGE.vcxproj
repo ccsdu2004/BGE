@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -14,18 +14,21 @@
     <ProjectGuid>{11A8C260-4731-4121-B76F-F9B2DDA3C8BD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BGE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -51,10 +54,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;src;thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;glu32.lib;opengl32.lib;thirdparty\\lib\\physfs.lib;thirdparty\\lib\\freetype.lib;thirdparty\\lib\\glfw3dll.lib;thirdparty\\lib\\libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -66,7 +71,7 @@
       <FunctionLevelLinking>false</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;BGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\BGE\include;C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\BGE\src;C:\Users\wenhua.du.TELEPERFORMANCE\Documents\Visual Studio 2010\Projects\BGE\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src;thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MinimalRebuild>true</MinimalRebuild>
     </ClCompile>
@@ -75,7 +80,7 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>winmm.lib;glu32.lib;opengl32.lib;..\\thirdparty\\lib\\physfs.lib;..\\thirdparty\\lib\\freetype240.lib;..\\thirdparty\\lib\\glfw3dll.lib;..\\thirdparty\\lib\\libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;glu32.lib;opengl32.lib;thirdparty\\lib\\physfs.lib;thirdparty\\lib\\freetype.lib;thirdparty\\lib\\glfw3dll.lib;thirdparty\\lib\\libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateMapFile>false</GenerateMapFile>
       <MapFileName>
       </MapFileName>
@@ -84,6 +89,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\BGE\Graphics\Canvas.h" />
+    <ClInclude Include="include\BGE\Graphics\Color.h" />
+    <ClInclude Include="include\BGE\Graphics\Device.h" />
+    <ClInclude Include="include\BGE\Graphics\Image.h" />
+    <ClInclude Include="include\BGE\Graphics\RenderDesc.h" />
+    <ClInclude Include="include\BGE\Graphics\TextRenderer.h" />
     <ClInclude Include="include\BGE\GUI\BasicButton.h" />
     <ClInclude Include="include\BGE\GUI\CheckBox.h" />
     <ClInclude Include="include\BGE\GUI\ComboBox.h" />
@@ -128,7 +139,6 @@
     <ClInclude Include="src\BGE\Graphics\PNGImage.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\test\grid.cpp" />
     <ClCompile Include="src\BGE\Graphics\CanvasImpl.cpp" />
     <ClCompile Include="src\BGE\Graphics\Color.cpp" />
     <ClCompile Include="src\BGE\Graphics\Device.cpp" />
@@ -183,6 +193,7 @@
     <ClCompile Include="src\BGE\System\tinyxml\tinyxmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="include\BGE\Graphics\All" />
     <None Include="include\BGE\GUI\All" />
     <None Include="include\BGE\System\All" />
   </ItemGroup>
