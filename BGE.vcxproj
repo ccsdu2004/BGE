@@ -121,7 +121,6 @@
     <ClInclude Include="include\BGE\System\Enum.h" />
     <ClInclude Include="include\BGE\System\Err.h" />
     <ClInclude Include="include\BGE\System\IO.h" />
-    <ClInclude Include="include\BGE\System\list.h" />
     <ClInclude Include="include\BGE\System\Math.h" />
     <ClInclude Include="include\BGE\System\NonCopyable.h" />
     <ClInclude Include="include\BGE\System\Object.h" />

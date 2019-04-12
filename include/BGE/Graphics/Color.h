@@ -1,9 +1,6 @@
 #ifndef BGE_GRAPHICS_COLOR_H
 #define BGE_GRAPHICS_COLOR_H
-//#include <BGE/Graphics/Export.h>
 #include <BGE/System/Serialization.h>
-//#include <BGE/System/Object.h>
-//#include <BGE/System/Serialization.h>
 #include <cstdint>
 
 namespace bge

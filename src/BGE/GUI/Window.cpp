@@ -190,11 +190,11 @@ void Window::setWidgetType(bool widget)
 
 bool Window::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(text,node,String)
-    DESERIALIZE_OBJECT(position,node,Vector2<float>)
-    DESERIALIZE_OBJECT(size,node,Vector2<float>)
-    DESERIALIZE_OBJECT(isVisible,node,bool)
-    DESERIALIZE_OBJECT(isEnabled,node,bool)
+    DESERIALIZE_OBJECT(text,node)
+    DESERIALIZE_OBJECT(position,node)
+    DESERIALIZE_OBJECT(size,node)
+    DESERIALIZE_OBJECT(isVisible,node)
+    DESERIALIZE_OBJECT(isEnabled,node)
     TiXmlNode* window = node->FirstChildElement("Object");
     Object::loadProperty(window);
     return true;

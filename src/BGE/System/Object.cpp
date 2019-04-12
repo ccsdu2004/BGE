@@ -157,7 +157,7 @@ Object* Object::findChild(const std::string& name)
 bool Object::loadProperty(TiXmlNode* node)
 {
     std::string objectName_;
-    DESERIALIZE_OBJECT(objectName,node,std::string)
+    DESERIALIZE_OBJECT(objectName,node)
     name_ = objectName_;
     return true;
 }

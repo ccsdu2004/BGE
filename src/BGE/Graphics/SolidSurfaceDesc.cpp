@@ -50,7 +50,7 @@ void SolidSurfaceDesc::draw(const FloatRect& area,Canvas* canvas)const
 
 bool SolidSurfaceDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(color,node,Color)
+    DESERIALIZE_OBJECT(color,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     return true;
@@ -84,9 +84,9 @@ void GradientSurfaceDesc::draw(const FloatRect& area,Canvas* canvas)const
 
 bool GradientSurfaceDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(color1,node,Color)
-    DESERIALIZE_OBJECT(color2,node,Color)
-    DESERIALIZE_OBJECT(orientation,node,Orientation)
+    DESERIALIZE_OBJECT(color1,node)
+    DESERIALIZE_OBJECT(color2,node)
+    DESERIALIZE_OBJECT(orientation,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     return true;
@@ -133,10 +133,10 @@ void RectangleDesc::draw(const FloatRect& area,Canvas* canvas)const
 
 bool RectangleDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(color1,node,Color)
-    DESERIALIZE_OBJECT(color2,node,Color)
-    DESERIALIZE_OBJECT(style,node,RectangleStyle)
-    DESERIALIZE_OBJECT(lineWidth,node,float)
+    DESERIALIZE_OBJECT(color1,node)
+    DESERIALIZE_OBJECT(color2,node)
+    DESERIALIZE_OBJECT(style,node)
+    DESERIALIZE_OBJECT(lineWidth,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     return true;
@@ -229,15 +229,15 @@ size_t TextDesc::hitCharacterIndex(const String& string,float offset) const
 
 bool TextDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(fileName,node,std::string)
-    DESERIALIZE_OBJECT(pixelHeight,node,int)
-    DESERIALIZE_OBJECT(xOffset,node,float)
-    DESERIALIZE_OBJECT(yOffset,node,float)
-    DESERIALIZE_OBJECT(margin,node,float)
-    DESERIALIZE_OBJECT(color,node,Color)
-    DESERIALIZE_OBJECT(isMultiLine,node,bool)
-    DESERIALIZE_OBJECT(horizontalAlignment,node,Horizontal)
-    DESERIALIZE_OBJECT(verticalAlignment,node,Vertical)
+    DESERIALIZE_OBJECT(fileName,node)
+    DESERIALIZE_OBJECT(pixelHeight,node)
+    DESERIALIZE_OBJECT(xOffset,node)
+    DESERIALIZE_OBJECT(yOffset,node)
+    DESERIALIZE_OBJECT(margin,node)
+    DESERIALIZE_OBJECT(color,node)
+    DESERIALIZE_OBJECT(isMultiLine,node)
+    DESERIALIZE_OBJECT(horizontalAlignment,node)
+    DESERIALIZE_OBJECT(verticalAlignment,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     reloadTextRenderer();
@@ -296,7 +296,7 @@ void DefaultCheckDesc::draw(const FloatRect& area,Canvas* canvas) const
 
 bool DefaultCheckDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(color,node,Color)
+    DESERIALIZE_OBJECT(color,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     return true;
@@ -398,10 +398,10 @@ void DefaultFrameDesc::draw(const FloatRect& area,Canvas* canvas) const
 
 bool DefaultFrameDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(section,node,FrameSection)
-    DESERIALIZE_OBJECT(foregroundColor,node,Color)
-    DESERIALIZE_OBJECT(backgroundColor,node,Color)
-    DESERIALIZE_OBJECT(borderLineWidth,node,int)
+    DESERIALIZE_OBJECT(section,node)
+    DESERIALIZE_OBJECT(foregroundColor,node)
+    DESERIALIZE_OBJECT(backgroundColor,node)
+    DESERIALIZE_OBJECT(borderLineWidth,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
     return true;
@@ -462,12 +462,12 @@ void BitmapDesc::draw(const FloatRect& area,Canvas* canvas) const
 
 bool BitmapDesc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(fileName,node,std::string)
-    DESERIALIZE_OBJECT(mapping,node,Mapping)
-    DESERIALIZE_OBJECT(top,node,int)
-    DESERIALIZE_OBJECT(left,node,int)
-    DESERIALIZE_OBJECT(bottom,node,int)
-    DESERIALIZE_OBJECT(right,node,int)
+    DESERIALIZE_OBJECT(fileName,node)
+    DESERIALIZE_OBJECT(mapping,node)
+    DESERIALIZE_OBJECT(top,node)
+    DESERIALIZE_OBJECT(left,node)
+    DESERIALIZE_OBJECT(bottom,node)
+    DESERIALIZE_OBJECT(right,node)
     TiXmlNode* super = node->FirstChildElement("RenderDesc");
     RenderDesc::loadProperty(super);
 
@@ -539,8 +539,8 @@ void Bitmap1x3Desc::draw(const FloatRect& area,Canvas* canvas) const
 
 bool Bitmap1x3Desc::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(leftOffset,node,int)
-    DESERIALIZE_OBJECT(rightOffset,node,int)
+    DESERIALIZE_OBJECT(leftOffset,node)
+    DESERIALIZE_OBJECT(rightOffset,node)
     TiXmlNode* super = node->FirstChildElement("BitmapDesc");
     return BitmapDesc::loadProperty(super);
 }

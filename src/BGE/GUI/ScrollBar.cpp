@@ -318,9 +318,9 @@ WINDOW_LOAD_APPAREARANCE(ScrollBar)
 
 bool ScrollBar::loadProperty(TiXmlNode* node)
 {
-    DESERIALIZE_OBJECT(justification,node,Orientation)
-    DESERIALIZE_OBJECT(visibleAmount,node,int)
-    DESERIALIZE_OBJECT(trackColor,node,Color)
+    DESERIALIZE_OBJECT(justification,node)
+    DESERIALIZE_OBJECT(visibleAmount,node)
+    DESERIALIZE_OBJECT(trackColor,node)
     TiXmlNode* window = node->FirstChildElement("Slideable");
     Slideable::loadProperty(window);
     return true;

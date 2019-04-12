@@ -30,7 +30,6 @@ Window* Layout::parse(TiXmlElement* element)
 		if(window)
 		{
 			window->loadProperty(element);
-			std::cout<<window->size().x_<<" "<<window->size().y_<<std::endl;
 			return window;
 		}
 		else

@@ -42,6 +42,7 @@ void serialize(const ObjectNamer<T>& object,TiXmlNode* node)
 void BGE_EXPORT_API serialize(const ObjectNamer<std::string>& object,TiXmlNode* node);
 void BGE_EXPORT_API serialize(const ObjectNamer<String>& object,TiXmlNode* node);
 void BGE_EXPORT_API serialize(const ObjectNamer<Vector2<float> >& object,TiXmlNode* node);
+void BGE_EXPORT_API serialize(const ObjectNamer<Vector2i>& object, TiXmlNode* node);
 void BGE_EXPORT_API serialize(const ObjectNamer<Vector3<float> >& object,TiXmlNode* node);
 
 template<typename T>
@@ -138,8 +139,8 @@ inline String deserialize(const char* name,TiXmlNode* node)
 
 }
 
-#define DESERIALIZE_OBJECT(x,node,type)\
-    x##_ = deserialize<type>(#x,node);
+#define DESERIALIZE_OBJECT(x,node)\
+    x##_ = deserialize<decltype(x##_)>(#x,node);
 
 #define DESERIALIZE_OBJECT_CONTAINER(x,node,Container,T)\
     x##_ = deserializeContainer<Container,T>(#x,node);

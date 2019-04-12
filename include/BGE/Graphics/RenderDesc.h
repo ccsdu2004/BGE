@@ -17,7 +17,7 @@ namespace bge
 
 class TextRenderer;
 
-class BGE_EXPORT_API RenderDesc : public Object
+class RenderDesc : public Object
 {
     DECLARE_OBJECT(RenderDesc)
 public:

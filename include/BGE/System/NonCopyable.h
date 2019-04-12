@@ -5,7 +5,7 @@
 namespace bge
 {
 
-class BGE_EXPORT_API NonCopyable
+class NonCopyable
 {
 protected :
     NonCopyable(){}

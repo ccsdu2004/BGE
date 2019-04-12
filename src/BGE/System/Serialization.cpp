@@ -15,6 +15,14 @@ void serialize(const ObjectNamer<Vector2f>& object,TiXmlNode* node)
     node->InsertEndChild(element);
 }
 
+void serialize(const ObjectNamer<Vector2i>& object, TiXmlNode* node)
+{
+	TiXmlElement element(object.name());
+	SERIALIZE_OBJECT_3("x", object.value().x_, &element)
+	SERIALIZE_OBJECT_3("y", object.value().y_, &element)
+	node->InsertEndChild(element);
+}
+
 void serialize(const ObjectNamer<Vector3f>& object,TiXmlNode* node)
 {
     TiXmlElement element(object.name());

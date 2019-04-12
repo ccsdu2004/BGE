@@ -159,9 +159,6 @@
     <ClInclude Include="include\BGE\GUI\WindowManager.h">
       <Filter>头文件\GUI</Filter>
     </ClInclude>
-    <ClInclude Include="include\BGE\System\list.h">
-      <Filter>头文件\System</Filter>
-    </ClInclude>
     <ClInclude Include="include\BGE\GUI\Layout.h">
       <Filter>头文件\GUI</Filter>
     </ClInclude>

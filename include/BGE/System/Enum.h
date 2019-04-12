@@ -1,7 +1,6 @@
 #ifndef BGE_SYSTEM_ENUM_H
 #define BGE_SYSTEM_ENUM_H
 #include <BGE/System/String.h>
-#include <iostream>
 
 namespace bge
 {

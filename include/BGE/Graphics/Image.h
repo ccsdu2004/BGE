@@ -8,8 +8,6 @@
 namespace bge
 {
 
-typedef void (UnregisterImageFunction)(size_t handle);
-
 class BGE_EXPORT_API Image : public Deleter
 {
 protected:
@@ -28,8 +26,6 @@ public:
 private:
     std::string fileName_;
     mutable size_t handle_;
-
-    //static UnregisterImageFunction* unregisterImage_;
 };
 
 }

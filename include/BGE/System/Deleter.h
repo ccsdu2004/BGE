@@ -5,7 +5,7 @@
 namespace bge
 {
 
-class BGE_EXPORT_API Deleter
+class Deleter
 {
 public:
     virtual ~Deleter();

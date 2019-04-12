@@ -10,7 +10,7 @@
 namespace bge
 {
 
-class BGE_EXPORT_API TextRenderer
+class TextRenderer
 {
 protected:
     TextRenderer(const std::string& font,size_t point):
